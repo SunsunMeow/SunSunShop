@@ -1,0 +1,6 @@
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\bin\Debug\SunSun.Common.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\bin\Debug\SunSun.Common.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\obj\Debug\SunSun.Common.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\obj\Debug\SunSun.Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\obj\Debug\SunSun.Common.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Dự Án\SunSunShop\SunSun.Common\obj\Debug\SunSun.Common.pdb
