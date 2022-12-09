@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SunSun.Model.Models.Role>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-info rounded h-100 p-4">
+        <h2 class="mb-4">Roles Table</h2>
+        <a href="@Url.Action("Create","Roles")"><button type="button" class="btn  btn-primary m-2">Create New   <i class="fa fa-user-plus"></i></button></a>
+        <table class="table table-hover text-dark">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            <a class="btn btn-square btn-warning rounded-pill m-1" href="@Url.Action("Edit","Roles",new { id = item.ID })"><i class="fas fa-edit"></i></a>|
+                            <a class="btn btn-square btn-success rounded-pill m-2" href="@Url.Action("Details","Roles",new { id = item.ID })"><i class="fa-solid fa-calendar-week"></i></a>|
+                            <a class="btn btn-square btn-danger rounded-pill m-2" href="@Url.Action("Delete","Roles",new { id = item.ID })"><i class="fas fa-trash-alt"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
